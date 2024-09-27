@@ -94,9 +94,14 @@ In this project, you will build a Github repository from scratch and create a sc
 
 - Output of a test run
   ![test run](<screenshot/run test code in azure cloudshell 2024-09-27 160859.png>)
+
+- Use GitHub Actions to test and lint a project while writing code.
+  ![github actions](<screenshot/github actions build and run test code 2024-09-27 162205.png>)
 - Successful deploy of the project in Azure Pipelines. [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+  ![azure pipeline](<screenshot/Azure pipeline 2024-09-27 232436.png>)
 
 - Running Azure App Service from Azure Pipelines automatic deployment
+  ![running app service](<screenshot/running app 2024-09-27 232615.png>)
 
 - Successful prediction from deployed flask app in Azure Cloud Shell. [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
   The output should look similar to this:
@@ -108,13 +113,12 @@ Port: 443
 ```
 
 - Output of streamed log files from deployed application
-
->
+  ![deployment log](<screenshot/deployment log 2024-09-27 231923.png>)
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+create a second, enhanced GitHub project (and link to it in your README) that improves the ability of the project to be maintained by a professional software engineering team. For example, if you are familiar with Kubernetes, this could be a Kubernetes version of this project. This second version may also include an architectural diagram.
 
 ## Demo
 
-<TODO: Add link Screencast on YouTube>
+https://youtu.be/gsPV6xdv-H8
