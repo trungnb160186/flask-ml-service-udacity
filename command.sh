@@ -10,7 +10,7 @@ RUNTIME=PYTHON:3.10
 az group create --location eastus --name $RG
 
 # Create an App Service plan in FREE tier if you need it.
-echo "Going to Create Azure Webapp using free tier"
+echo "Deploying Webapp using free tier"
 az webapp up --name $APP_NAME --resource-group $APP_NAME --sku F1
 
 echo "Azure Web App Deployed Successfully"
