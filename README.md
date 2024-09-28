@@ -99,6 +99,7 @@ In this project, you will build a Github repository from scratch and create a sc
 
 - Use GitHub Actions to test and lint a project while writing code.
   ![github actions](<screenshot/github actions build and run test code 2024-09-27 162205.png>)
+  ![badge](<screenshot/badge in github 2024-09-28 104624.png>)
 - Successful deploy of the project in Azure Pipelines. [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
   ![azure pipeline](<screenshot/Azure pipeline 2024-09-27 232436.png>)
 
@@ -123,4 +124,4 @@ create a second, enhanced GitHub project (and link to it in your README) that im
 
 ## Demo
 
-https://youtu.be/gsPV6xdv-H8
+https://youtu.be/IkglIC9ta3o
